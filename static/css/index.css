@@ -1,0 +1,120 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgba(3, 20, 56, 0.959);
+
+
+.navbar {
+    color: wheat;
+
+}
+
+}
+
+
+@keyframes example {
+    from {background-image: url("https://searchengineland.com/wp-content/seloads/2020/03/code-SS_634574354-1920x1080-1.jpg");}
+    to {background-image:url("https://images.unsplash.com/photo-1555255707-c07966088b7b?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");}
+    to {background-image:url("https://images.unsplash.com/photo-1529429612779-c8e40ef2f36d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");}
+    
+  }
+
+.container1{
+    /* background-image:url("https://source.unsplash.com/random/1500x1080/?anime");
+    background-image:url("https://source.unsplash.com/random/1500x1080/?game");
+    background-image:url("https://source.unsplash.com/random/1500x1080/?mountain"); */
+    height: 540px;
+    border: 12px solid rgba(55, 58, 253, 0.473);
+    animation-name: example;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+
+
+
+
+.container1 h1{
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+    font-family: cursive;
+    font-size: 50px;
+    
+}
+
+.container2 h1{
+    
+    text-align: center;
+    margin-top: 200px;
+    font-style: normal;
+    font-size: 100px;
+    color: white;
+}
+
+.container2 p{
+    
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: cursive;
+    font-size: 20px;
+    color: white;
+}
+
+
+.container3{
+   
+    display: block;
+    margin-top: 200px;
+    background-color: black;
+    height: 260px;
+}
+
+
+
+
+.container3 img{
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rebeccapurple;
+    border-radius: 50%;
+}
+
+.container3 h2{
+    text-align: center;
+    margin-top: 10px;
+    font-family: cursive;
+    color: white;
+
+}
+
+.cont-icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+
+}
+
+.cont-icon a i img{
+    height: 60px;
+    width: 60px;
+    margin: 10px 10px;
+}
+
+
+.project{
+    
+    margin-top: 200px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.commingsoon{
+    
+    font-size: 100px;
+    text-align: center;
+}
